@@ -8,7 +8,7 @@ export default function Home() {
   const location = useLocation();
   const {  pathname } = location;
   let currentPath = pathname.slice(1);
-  let [link, setLink] = useState(currentPath);
+  let [link, setLink] = useState('#');
   useEffect(() => {
     setLink(currentPath || 'START FRAMEWORK')
   }, [location.pathname]);
