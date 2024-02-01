@@ -8,11 +8,11 @@ import Hero from './components/routingComponents/Hero/Hero';
 const myRouter = createBrowserRouter([
   {
 
-    path: '/#', element: <Home />, children: [
-      {path:'/#',element:<Hero/>},
-      { path: '/#/about', element: <About /> },
-      { path: '/#/portfolio', element: <Portfolio /> },
-      {path:'/#/contact',element: <Contact/>}
+    path: '#', element: <Home />, children: [
+      {path:'#',element:<Hero/>},
+      { path: '/about', element: <About /> },
+      { path: '/portfolio', element: <Portfolio /> },
+      {path:'/contact',element: <Contact/>}
     ]
   },
 ])

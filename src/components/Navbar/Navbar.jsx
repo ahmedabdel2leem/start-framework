@@ -16,7 +16,7 @@ export default function Navbar(props) {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
         <li className="nav-item  me-3 ">
-          <NavLink  className="nav-link  px-2 rounded-3 text-white fw-bold " to="#/about">ABOUT</NavLink>
+          <NavLink  className="nav-link  px-2 rounded-3 text-white fw-bold " to="/about">ABOUT</NavLink>
         </li>
         <li className="nav-item  me-3 ">
           <NavLink  className="nav-link px-2  rounded-3 text-white text-white fw-bold" to="/portfolio">PORTFOLIO</NavLink>
