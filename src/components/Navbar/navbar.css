@@ -1,0 +1,7 @@
+.navbar{
+    background: #2c3e50;
+    z-index:999 !important;
+}
+.navbar-nav .active{
+    background-color: #1abc9c;
+}

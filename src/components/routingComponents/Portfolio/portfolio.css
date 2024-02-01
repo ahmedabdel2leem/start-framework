@@ -1,0 +1,24 @@
+.portfolio { .text-white{
+    color: #2c3e50 !important;
+}
+
+ .bg-white{
+    background-color: #000 !important;
+}
+}
+.overlay{
+    opacity: 0;
+    transition: opacity .7s ;
+}
+.overlay:hover{
+    opacity: 1;
+background: #1abc9ce6;
+}
+.overlay .plus_icon{
+font-size: 6rem;
+}
+.mymodal{
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #1a4dbc35;
+}

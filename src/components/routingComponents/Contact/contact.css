@@ -1,0 +1,29 @@
+.contact {
+    .text-white {
+        color: #2c3e50 !important;
+    }
+
+    .bg-white {
+        background-color: #000 !important;
+    }
+    
+}
+.label{
+    color: #1abc9c !important;
+    top: 40px;
+    transition: top .4s;
+    
+}
+input{
+    margin:.5rem 0 1rem 0  !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.myBtn{
+    background-color: #1abc9c ;
+    color: #fff ;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
